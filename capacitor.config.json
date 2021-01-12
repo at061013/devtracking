@@ -1,5 +1,5 @@
 {
-  "appId": "com.example.app",
+  "appId": "io.ionic.starter",
   "appName": "devTracking",
   "bundledWebRuntime": false,
   "npmClient": "npm",
@@ -9,5 +9,15 @@
       "launchShowDuration": 0
     }
   },
-  "cordova": {}
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "false",
+      "BackupWebStorage": "none",
+      "SplashMaintainAspectRatio": "true",
+      "FadeSplashScreenDuration": "300",
+      "SplashShowOnlyFirstTime": "false",
+      "SplashScreen": "screen",
+      "SplashScreenDelay": "3000"
+    }
+  }
 }
