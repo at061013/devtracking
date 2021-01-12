@@ -1,5 +1,8 @@
 {
   "name": "devTracking",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
   "type": "angular"
 }
